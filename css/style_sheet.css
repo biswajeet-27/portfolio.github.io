@@ -1,0 +1,193 @@
+a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    padding: 3.012vh;
+    font-size: 4.337vh;
+}
+.navbar{
+    background-color: black;
+    box-shadow: 0 0 5px gray, 0 0 25px gray;
+    padding: 1.927vh;
+    float:left;
+    border-radius: 3.855vh 3.855vh 3.855vh 3.855vh;
+    margin-left: 1.204vh;
+    margin-top: 3.132vh;
+    position: fixed;
+}
+.row1{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/wpone.jpg);
+    background-size: cover;
+    padding-top: 24.096vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+.row2{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/wpthree.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+.row3{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/wpfour.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+.row4{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/wpsix.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(246, 16, 185);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+.row5{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/wpfive.jpg);
+    background-size: cover;
+    padding-bottom: 15.060vh;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+.six{
+    background-color: rgb(0, 0, 0);
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    padding-top: 1.506vh;
+    padding-bottom: 1.506vh;
+}
+
+
+.heading{
+    color: white;
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+    font-size: 10.542vh;
+    padding-bottom: 4.518vh;
+    padding-top: 7.53vh;
+    transition: 1s;
+}
+
+.designer{
+    font-family: 'Lexend', sans-serif;
+    text-align: center;
+    padding-top: 6.024vh;
+    font-size: 15.06vh;
+    color: white;
+}
+.aspiration{
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    font-size: 4.518vh;
+    color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 22.59vh;
+    margin: 3.012vh;
+    border-radius: 50%;
+    box-shadow:0 0 5px cyan, 0 0 25px cyan;
+}
+
+img{
+    transition: 1s;
+}
+img:hover{
+    transform: scale(1.3);
+    z-index:2;
+    box-shadow: 0 0 0.313rem cyan, 0 0 1.563rem cyan, 0 0 3.125rem cyan, 0 0 6.25rem cyan, 0 0 12.5rem cyan;
+}
+
+.navele{
+    transition: 1s;
+}
+
+.navele:hover{
+    color:rgb(255, 252, 251);
+    text-shadow: 0 0 0.313rem cyan, 0 0 1.563rem cyan, 0 0 3.125rem cyan, 0 0 6.25rem cyan, 0 0 12.5rem cyan;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+li{
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    padding-left: 0.754vh;
+    padding-right: 0.754vh;
+    color: white;
+}
+ul{
+    text-align: center;
+}
+
+button{
+    box-shadow:0 0 0.313rem cyan, 0 0 1.563rem cyan;
+    padding: 1.506vh;
+    box-sizing: border-box;
+    border-radius: 1.506vh 1.506vh 1.506vh 1.506vh;
+    display: inline;
+    float: right;
+    margin-right: 4.518vh;
+    margin-top: 3.012vh;
+    background-color: rgb(12, 171, 171);
+    border: none;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 3.012vh;
+    color: white;
+    font-weight: bolder;
+    transition: 1s;
+}
+
+button:hover{
+    transform: scale(1.1);
+    z-index:2;
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+}
+
+.heading:hover{
+    text-shadow: 0 0 0.313rem cyan, 0 0 1.563rem cyan, 0 0 3.125rem cyan, 0 0 6.25rem cyan, 0 0 12.5rem cyan;
+    transform: scale(1.1);
+    z-index:2;
+}
+
+p{
+    text-align: center;
+}
+
+.desc{
+    padding-left: 30.120vh;
+    padding-right: 30.120vh;
+    padding-bottom: 15.06vh;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 3.012vh;
+    text-align: center;
+}
